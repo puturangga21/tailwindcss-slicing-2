@@ -5,3 +5,6 @@
 body {
    font-family: "Tanker", sans-serif;
 }
+.navcustom.active {
+   background-color: black;
+}
