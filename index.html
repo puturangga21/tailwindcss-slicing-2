@@ -12,9 +12,9 @@
    </head>
    <body>
       <!-- Navbar Section -->
-      <header class="flex w-full items-center" id="header">
+      <header class="absolute top-0 left-0 z-50 flex w-full items-center bg-transparent" id="header">
          <div class="container px-5">
-            <nav class="my-11 flex w-full items-center justify-between">
+            <nav class="my-4 flex w-full items-center justify-between">
                <div class="w-full">
                   <img src="./src/img/logo.svg" alt="Logo" class="w-20 cursor-pointer" href="#header" />
                </div>
@@ -52,7 +52,7 @@
       <!-- Navbar Section End -->
 
       <!-- Hero Section -->
-      <section id="home" class="">
+      <section id="home" class="pt-32">
          <div class="container px-5">
             <div class="flex flex-wrap lg:relative">
                <div class="w-full self-start lg:mt-8 lg:w-[40%]">
@@ -98,10 +98,10 @@
                   </div>
                </div>
 
-               <div class="mt-16 w-full lg:absolute lg:mt-[650px] lg:w-[400px]">
+               <div class="mt-16 w-full lg:absolute lg:mt-[650px] lg:w-[500px]">
                   <div class="relative">
-                     <img src="src/img/product.png" alt="Product" class="absolute w-[300px] lg:w-[350px]" />
-                     <img src="src/img/price.svg" alt="Price" class="absolute right-0 mt-52" />
+                     <img src="src/img/product.png" alt="Product" class="absolute w-[300px] lg:w-[470px]" />
+                     <img src="src/img/price.svg" alt="Price" class="absolute right-0 mt-52 lg:-right-4 lg:mt-72" />
                      <img src="src/img/emot2.svg" alt="Emot2" class="absolute right-0 w-16 lg:w-28" />
                   </div>
                </div>
@@ -147,5 +147,7 @@
       <!-- Hero Section End -->
 
       <section class="mt-44"></section>
+
+      <script src="src/js/script.js"></script>
    </body>
 </html>
