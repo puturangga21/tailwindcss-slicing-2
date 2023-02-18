@@ -561,6 +561,10 @@ video {
   bottom: -3rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -641,6 +645,10 @@ video {
 
 .mt-\[300px\] {
   margin-top: 300px;
+}
+
+.mt-\[470px\] {
+  margin-top: 470px;
 }
 
 .flex {
@@ -815,6 +823,10 @@ video {
   background-repeat: no-repeat;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -848,6 +860,10 @@ video {
 
 .text-\[32px\] {
   font-size: 32px;
+}
+
+.text-\[34px\] {
+  font-size: 34px;
 }
 
 .text-\[40px\] {
@@ -932,9 +948,9 @@ video {
   transition-duration: 300ms;
 }
 
-/* html {
-   scroll-behavior: smooth;
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Tanker", sans-serif;
@@ -1145,10 +1161,6 @@ body {
     gap: 2.25rem;
   }
 
-  .lg\:rounded-xl {
-    border-radius: 0.75rem;
-  }
-
   .lg\:rounded-br-\[55px\] {
     border-bottom-right-radius: 55px;
   }
@@ -1165,12 +1177,32 @@ body {
     border-top-right-radius: 80px;
   }
 
+  .lg\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .lg\:p-6 {
+    padding: 1.5rem;
+  }
+
   .lg\:pt-72 {
     padding-top: 18rem;
   }
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .lg\:text-\[44px\] {
+    font-size: 44px;
+  }
+
+  .lg\:text-\[46px\] {
+    font-size: 46px;
   }
 
   .lg\:text-\[81px\] {
