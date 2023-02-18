@@ -22,33 +22,56 @@
                <div class="hidden lg:flex">
                   <ul class="hidden gap-10 font-supreme lg:flex lg:items-center">
                      <li>
-                        <a href="#home" class="font-bold text-grey transition-all duration-300 hover:text-[#0CD6C9]"
-                           >Home</a
-                        >
+                        <a href="#home" class="font-bold text-grey transition-all duration-300 hover:text-[#0CD6C9]">
+                           Home
+                        </a>
                      </li>
                      <li>
-                        <a href="#" class="font-bold text-grey transition-all duration-300 hover:text-[#0CD6C9]">New</a>
+                        <a href="#" class="font-bold text-grey transition-all duration-300 hover:text-[#0CD6C9]">
+                           New
+                        </a>
                      </li>
                      <li>
-                        <a href="#" class="font-bold text-grey transition-all duration-300 hover:text-[#0CD6C9]"
-                           >Trend</a
-                        >
+                        <a href="#" class="font-bold text-grey transition-all duration-300 hover:text-[#0CD6C9]">
+                           Trend
+                        </a>
                      </li>
                      <li>
-                        <a href="#" class="font-bold text-grey transition-all duration-300 hover:text-[#0CD6C9]"
-                           >Sale</a
-                        >
+                        <a href="#" class="font-bold text-grey transition-all duration-300 hover:text-[#0CD6C9]">
+                           Sale
+                        </a>
                      </li>
                   </ul>
                </div>
 
                <div class="flex w-full items-center justify-end gap-[30px]">
                   <img src="src/img/cart.svg" alt="Cart" class="cursor-pointer" />
-                  <img src="src/img/hamburger.svg" alt="hamburger" class="cursor-pointer" />
+                  <img src="src/img/hamburger.svg" alt="hamburger" class="cursor-pointer lg:hidden" id="hamburger" />
                </div>
             </nav>
          </div>
       </header>
+
+      <div class="navbar-fixed fixed top-20 left-0 hidden h-[100%] w-[100%]" id="navbar-nav">
+         <ul class="absolute top-[40%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-center">
+            <li class="my-3">
+               <a href="#home" class="text-4xl font-bold text-grey transition-all hover:text-[#0CD6C9]">Home</a>
+            </li>
+            <li class="my-3">
+               <a href="#" class="text-4xl font-bold text-grey transition-all hover:text-[#0CD6C9]">New</a>
+            </li>
+            <li class="my-3">
+               <a href="#" class="text-4xl font-bold text-grey transition-all hover:text-[#0CD6C9]">Trend</a>
+            </li>
+            <li class="my-3">
+               <a href="#" class="text-4xl font-bold text-grey transition-all hover:text-[#0CD6C9]">Sale</a>
+            </li>
+            <li class="my-3">
+               <a href="#" class="text-4xl font-bold text-grey transition-all hover:text-[#0CD6C9]" id="go-back">Back</a>
+            </li>
+         </ul>
+      </div>
+
       <!-- Navbar Section End -->
 
       <!-- Hero Section -->
@@ -203,20 +226,21 @@
 
                <div class="mt-20 grid h-[650px] w-full grid-cols-1 gap-2 lg:grid-cols-2">
                   <div
-                     class="h-15 aspect-square overflow-hidden rounded-xl bg-sky-500 lg:aspect-auto lg:rounded-tr-[80px]">
-                     <div class="banner-img relative h-full w-full bg-cover bg-no-repeat">
+                     class="h-15 aspect-square overflow-hidden rounded-xl bg-sky-500 transition-all duration-700 hover:scale-95 lg:aspect-auto lg:rounded-tr-[80px]">
+                     <div
+                        class="banner-img relative h-full w-full bg-cover bg-no-repeat transition-all duration-700 group-hover:scale-125">
                         <div class="absolute bottom-0 p-6 lg:p-10">
-                           <p class="text-[34px] text-purple lg:text-[46px]">outdoor</p>
-                           <p class="font-supreme text-base text-purple lg:text-[18px]">
+                           <p class="text-[34px] text-white lg:text-[46px]">outdoor</p>
+                           <p class="font-supreme text-base text-white lg:text-[18px]">
                               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, ipsa!
                            </p>
                         </div>
                      </div>
                   </div>
 
-                  <div class="mt-[470px] grid w-full grid-cols-1 gap-2 lg:mt-0 lg:grid-cols-5">
+                  <div class="mt-[340px] grid w-full grid-cols-1 gap-2 lg:mt-0 lg:grid-cols-5">
                      <div
-                        class="h-15 aspect-[4/3] overflow-hidden rounded-xl bg-sky-500 lg:col-span-3 lg:aspect-auto lg:rounded-br-[55px]">
+                        class="h-15 aspect-[4/3] overflow-hidden rounded-xl bg-sky-500 transition-all duration-700 hover:scale-95 lg:col-span-3 lg:aspect-auto lg:rounded-br-[55px]">
                         <div class="banner-img2 relative h-full w-full bg-cover bg-no-repeat">
                            <div class="absolute bottom-0 p-6 lg:flex lg:items-center lg:gap-4 lg:p-6">
                               <p class="text-[34px] text-white lg:text-[44px]">in driving</p>
@@ -225,7 +249,7 @@
                         </div>
                      </div>
                      <div
-                        class="h-15 aspect-[3/4] overflow-hidden rounded-xl bg-sky-500 lg:col-span-2 lg:aspect-auto lg:rounded-tl-[55px]">
+                        class="h-15 aspect-[3/4] overflow-hidden rounded-xl bg-sky-500 transition-all duration-700 hover:scale-95 lg:col-span-2 lg:aspect-auto lg:rounded-tl-[55px]">
                         <div class="banner-img3 relative h-full w-full bg-cover">
                            <div class="absolute bottom-0 p-6 lg:p-6">
                               <p class="text-[34px] text-white lg:text-[44px]">on work</p>
@@ -236,7 +260,7 @@
                         </div>
                      </div>
                      <div
-                        class="h-15 aspect-square overflow-hidden rounded-xl bg-sky-500 lg:col-span-2 lg:aspect-auto lg:rounded-br-[55px]">
+                        class="h-15 aspect-square overflow-hidden rounded-xl bg-sky-500 transition-all duration-700 hover:scale-95 lg:col-span-2 lg:aspect-auto lg:rounded-br-[55px]">
                         <div class="banner-img4 relative h-full w-full bg-cover">
                            <div class="absolute bottom-0 p-6 lg:p-6">
                               <p class="text-[34px] text-white lg:text-[44px]">fashion</p>
@@ -247,8 +271,8 @@
                         </div>
                      </div>
                      <div
-                        class="h-15 aspect-square overflow-hidden rounded-xl bg-sky-500 lg:col-span-3 lg:aspect-auto lg:rounded-tr-[55px]">
-                        <div class="banner-img5 h-full w-full bg-cover relative">
+                        class="h-15 aspect-square overflow-hidden rounded-xl bg-sky-500 transition-all duration-700 hover:scale-95 lg:col-span-3 lg:aspect-auto lg:rounded-tr-[55px]">
+                        <div class="banner-img5 relative h-full w-full bg-cover">
                            <div class="absolute bottom-0 p-6 lg:p-6">
                               <p class="text-[34px] text-white lg:text-[44px]">on shopping</p>
                               <p class="font-supreme text-base text-white lg:text-[18px]">

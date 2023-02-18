@@ -21,25 +21,25 @@ body {
 
 .banner-img {
    background-image: linear-gradient(to top, rgba(255, 115, 81, 100%), rgba(255, 115, 81, 0%)),
-   url('../img/img-banner-1.jfif');
+      url("../img/img-banner-1.jfif");
 }
 
 .banner-img2 {
    background-image: linear-gradient(to top, rgba(255, 194, 1, 100%), rgba(255, 194, 1, 0%)),
-   url('../img/img-banner-2.jfif');
+      url("../img/img-banner-2.jfif");
 }
 
 .banner-img3 {
    background-image: linear-gradient(to top, rgba(52, 170, 255, 100%), rgba(52, 170, 255, 0%)),
-   url('../img/img-banner-3.png');
+      url("../img/img-banner-3.png");
 }
 
 .banner-img4 {
    background-image: linear-gradient(to top, rgba(146, 108, 162, 100%), rgba(146, 108, 162, 0%)),
-   url('../img/img-banner-4.png');
+      url("../img/img-banner-4.png");
 }
 
 .banner-img5 {
    background-image: linear-gradient(to top, rgba(14, 218, 206, 100%), rgba(14, 218, 206, 0%)),
-   url('../img/img-banner-5.png');
+      url("../img/img-banner-5.png");
 }
