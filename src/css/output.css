@@ -688,6 +688,10 @@ video {
   margin-top: 340px;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .flex {
   display: flex;
 }
